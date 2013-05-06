@@ -84,7 +84,7 @@ void printCopyHelp(const char *exeName, bool printFullHelp=false){
   cout << "==========================================================================\n";
   cout << yellow;
   cout << "\nUsage:\n";
-  cout << "  "   << exeName << " <input file> -o <output filename> \n\n";
+  cout << "  "   << exeName << " <input file> -o <output filename> -<r/l>\n\n";
   cout << "\nOptions:\n";
   cout << "  -r to keep the right side\n";
   cout << "  -l to keep the left side\n";
